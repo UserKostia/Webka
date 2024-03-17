@@ -1,0 +1,213 @@
+/** {
+margin: 0;
+padding: 0;
+}*/
+
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover img {
+  transform: scale(1.2);
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+
+article {
+    float: right;
+    margin-right: 30px;
+    background-size: cover;
+}
+
+
+ul.main-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul.main-menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+ul.main-menu li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #4169E1;
+    transition: all 0.3s ease;
+}
+
+ul.main-menu li a:hover {
+    background-color: #32CD32;
+    color: #4169E1;
+    border-radius: 5px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.nav-body{
+  background: #FFD700;
+}
+
+
+form {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+input {
+    width: 200px; 
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.article{
+  width: 25%;
+}
+
+.section{
+  width: 75%;
+}
+
+main-index {
+  display: flex;
+  margin-top: 30px;
+}
+
+.product-page{
+  display: flex;
+  margin: 45px, 20px, 30px;
+}
+
+.footer-index{
+  background-color: #E0E0E0;
+}
+
+
+/* ------------- ABOUT ------------- */
+
+.header{
+  background-color: #F7C45F;
+}
+
+.me-image{
+  margin-top: 30px;
+  margin-left: 60px;
+  width: 220px;
+  height: 100%;
+}
+
+.main-services {
+  display: flex;
+  align-items: flex-start; /* Вирівнює текст зверху */
+}
+
+.lbl{
+  margin-left: 20px;
+}
+
+
+/* ------------- ABOUT ------------- */
+
+.Ranok-image{
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+  height: auto;
+}
+
+
+/* ------------- PORTFOLIO/GALERY ------------- */
+
+.catalogue__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px;
+}
+
+.catalogue__item {
+  width: 300px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+.catalogue__item:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.catalogue__image {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.catalogue__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.catalogue__item:hover .catalogue__image img {
+  transform: scale(1.1);
+}
+
+.catalogue__content {
+  padding: 10px;
+}
+
+.catalogue__title {
+  margin-bottom: 10px;
+  font-size: 10px;
+  transition: 0.3s;
+}
+
+.catalogue__item:hover .catalogue__title {
+  color: #4CAF50;
+}
+
+.catalogue__text {
+  font-size: 10px;
+  line-height: 1.5;
+  transition: 0.3s;
+}
+
+.catalogue__item:hover .catalogue__text {
+  color: #4CAF50;
+}
+
+
+/* ------------- PORTFOLIO/GALERY ------------- */
+
+.contact-info {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.contact-info a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
