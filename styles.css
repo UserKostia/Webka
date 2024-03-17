@@ -1,8 +1,10 @@
-/** {
-margin: 0;
-padding: 0;
-}*/
+/* * {
+  text-align: center;
+} */
 
+.title{
+  text-align: center;
+}
 
 .image-container {
   position: relative;
@@ -31,7 +33,7 @@ article {
 }
 
 
-ul.main-menu {
+ul.nav-menu {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -59,7 +61,7 @@ ul.main-menu li a:hover {
     margin-left: 40px;
 }
 
-.nav-body{
+.navigation{
   background: #FFD700;
 }
 
@@ -99,6 +101,10 @@ main-index {
   background-color: #E0E0E0;
 }
 
+.align-center{
+  text-align: center;
+}
+
 
 /* ------------- ABOUT ------------- */
 
@@ -135,62 +141,62 @@ main-index {
 
 /* ------------- PORTFOLIO/GALERY ------------- */
 
-.catalogue__list {
+.catalogue-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 40px;
 }
 
-.catalogue__item {
+.catalogue-item {
   width: 300px;
   margin: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   transition: 0.3s;
 }
 
-.catalogue__item:hover {
+.catalogue-item:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
 }
 
-.catalogue__image {
+.catalogue-image {
   width: 100%;
   height: 300px;
   overflow: hidden;
 }
 
-.catalogue__image img {
+.catalogue-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: 0.5s;
 }
 
-.catalogue__item:hover .catalogue__image img {
+.catalogue-item:hover .catalogue-image img {
   transform: scale(1.1);
 }
 
-.catalogue__content {
+.catalogue-content {
   padding: 10px;
 }
 
-.catalogue__title {
+.catalogue-title {
   margin-bottom: 10px;
   font-size: 10px;
   transition: 0.3s;
 }
 
-.catalogue__item:hover .catalogue__title {
+.catalogue-item:hover .catalogue-title {
   color: #4CAF50;
 }
 
-.catalogue__text {
+.catalogue-text {
   font-size: 10px;
   line-height: 1.5;
   transition: 0.3s;
 }
 
-.catalogue__item:hover .catalogue__text {
+.catalogue-item:hover .catalogue-text {
   color: #4CAF50;
 }
 
